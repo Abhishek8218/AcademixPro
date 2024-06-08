@@ -13,9 +13,7 @@ export default async function Dashboard() {
   if (!userId) {
     return redirect("/");
   }
-if(userId ){
-  return redirect("/search");
-}
+
   const {
     completedCourses,
     coursesInProgress
