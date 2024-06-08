@@ -34,7 +34,7 @@ export const CoursesList = ({
       {items.length === 0 && (
         <div className="text-center text-sm text-muted-foreground mt-10">
           You have no courses yet. Start by browsing our
-          <a href="/search" className="text-blue-500"> Courses</a> !!!
+          <a href="/search" className="text-blue-500">  &#128073;Courses&#128072;</a> !!!
         </div>
       )}
     </div>
